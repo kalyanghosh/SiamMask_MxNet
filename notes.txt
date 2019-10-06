@@ -1,0 +1,43 @@
+********************
+HARDWARE:
+********************
+Siam Mask:
+
+1. Python : 3.6, PyTorch : 0.4.1, Ubuntu 16.04, Cuda 9.2, Nvdia RTX 2080(Graphics card) 4 V100 GPUs
+
+AOG Net:
+
+2. Ubuntu 14.04 , cmake, libboost, opencv
+
+3. Choose Paperspace, 2.30$/hr, 1 V100, 8 CPU
+   p3.2xlarge : 3.02$/hr 1 V100
+
+********************
+DATASETS:
+********************
+
+Siam Mask:
+
+1. Training Data:
+
+Youtube-VOS, COCO, ImageNet-DET, ImageNet-VID
+
+Training takes about 10 hours in our 4 Tesla V100 GPUs.
+
+2. Testing Data:
+
+DAVIS, VOT, Youtube - VOS
+
+*********************
+DL FRAMEWORK:
+*********************
+I plan to use MxNet gluon for the codebase.
+
+*********************
+SYSTEM REQUIREMENTS:
+
+1. Ananconda: 4.7.12
+2. OpenCV
+3. MxNet
+
+
